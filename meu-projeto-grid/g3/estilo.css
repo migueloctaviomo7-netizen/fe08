@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.pagina {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 12px;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+main {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 30px;
+}
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.topo {
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+
+    background: #222;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}

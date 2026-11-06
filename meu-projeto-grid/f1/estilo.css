@@ -1,0 +1,11 @@
+
+.linha {
+    display: flex;
+    gap: 10px;
+}
+
+.linha div {
+    background: #fe9525;
+    color: #fff;
+    padding: 20px;
+}

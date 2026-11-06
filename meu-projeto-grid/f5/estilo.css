@@ -1,0 +1,21 @@
+.grupo {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 12px;
+    flex-wrap: wrap;
+
+    padding: 24px;
+}
+
+.grupo button {
+    padding: 10px 18px;
+    background: black;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    
+}

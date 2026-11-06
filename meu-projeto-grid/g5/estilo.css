@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    padding: 15px;
+}
+
+.pagina {
+    display: grid;
+
+    grid-template-areas:
+        "cab cab cab"
+        "menu main lado"
+        "pe   pe   pe";
+
+    grid-template-columns: 1fr 2fr 1fr;
+
+    gap: 10px;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    grid-area: cab;
+    background-color: #2563eb;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    grid-area: menu;
+    background-color: #10b981;
+    color: white;
+    padding: 20px;
+}
+
+/* Conteúdo principal */
+main {
+    grid-area: main;
+    background-color: white;
+    color: #1e293b;
+    padding: 25px;
+}
+
+/* Barra lateral */
+aside {
+    grid-area: lado;
+    background-color: #f59e0b;
+    color: white;
+    padding: 20px;
+}
+
+/* Rodapé */
+footer {
+    grid-area: pe;
+    background-color: #0f172a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+nav li {
+    margin-bottom: 10px;
+}

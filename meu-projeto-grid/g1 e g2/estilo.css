@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 12px;
+    padding : 20px;
+}
+
+.caixa1 {
+    background-color: #3447db;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.caixa2 {
+    background-color: #f8fc1c;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.caixa3 {
+    background-color: #177b2c;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.caixa4 {
+    background-color: #e80303;
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+}

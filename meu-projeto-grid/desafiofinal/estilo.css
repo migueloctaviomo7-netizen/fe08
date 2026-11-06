@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1e3a8a;
+    color: #fff;
+    padding: 16px 20px;
+}
+
+.logo {
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 20px;
+}
+
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.cartao-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.cartao-topo h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.preco {
+    color: #ea580c;
+    font-weight: 700;
+}
+
+.cartao p {
+    margin: 0 0 12px;
+}
+
+.cartao button {
+    margin-top: auto;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background: #1e3a8a;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e3a8a;
+    color: #fff;
+    padding: 16px;
+}
+
+footer p {
+    margin: 0;
+}
